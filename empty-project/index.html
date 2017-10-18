@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<script src="https://unpkg.com/vue"></script>
+
+<html>
+  <head>
+  <meta charset="UTF-8">
+    <title>Vue.js - binding data</title>
+  </head>
+  <body>
+    <div id="app">
+      <h1>Hello, {{name}}! Let's learn Vue.js</h1>
+    </div>
+  </body>
+</html>
+
+<script>
+var data = {name:'Olga'};
+
+new Vue({
+  el: '#app',
+  data
+})
+
+</script>
